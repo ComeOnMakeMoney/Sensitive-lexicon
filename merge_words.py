@@ -9,7 +9,7 @@ Sensitive Words Merging Script
 
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, List, Tuple
 
 class SensitiveWordsMerger:
@@ -97,7 +97,7 @@ class SensitiveWordsMerger:
         Returns:
             头部信息字符串
         """
-        current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')
+        current_time = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
         
         header = f"""# 完整敏感词汇库 - 基于 ComeOnMakeMoney/Sensitive-lexicon
 # 版本：v1.0
