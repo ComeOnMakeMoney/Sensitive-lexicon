@@ -22,6 +22,7 @@ wheels/
 
 # Log files
 *.log
+classify_vocabulary.log
 
 # IDE
 .vscode/
@@ -37,3 +38,10 @@ wheels/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# JSON compression files - keep compressed versions but exclude large original if needed
+# Uncomment the following line if you want to exclude the large original merged file from commits
+# merged_sensitive_words.json
+
+# Temporary files
+/tmp/

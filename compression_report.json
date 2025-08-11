@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-08-11T07:34:17.160878",
+  "original_file": "merged_sensitive_words.json",
+  "original_size": 1004437,
+  "original_size_formatted": "980.9 KB",
+  "compressed_file": "merged_sensitive_words_compressed.json",
+  "compressed_size": 788724,
+  "compressed_size_formatted": "770.2 KB",
+  "gzip_file": "merged_sensitive_words_compressed.json.gz",
+  "gzip_size": 301393,
+  "gzip_size_formatted": "294.3 KB",
+  "json_compression_ratio": 21.47601093946161,
+  "gzip_compression_ratio": 69.99383734370598,
+  "space_saved_json": 215713,
+  "space_saved_gzip": 703044
+}
